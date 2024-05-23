@@ -40,11 +40,11 @@ ros::Publisher value_wheels("value_wheels", &motor_rev);
 
 // Make sure to specify the correct values here
 //*******************************************
-double wheel_rad = 0.05, wheel_sep = 0.1725; // wheel radius and wheel sepration in meters.
+// double wheel_rad = 0.05, wheel_sep = 0.1725; // wheel radius and wheel sepration in meters.
 //******************************************
 double w1 = 0, w2 = 0, w3 = 0, w4 = 0;
 // double rad_wheel = 0.05, rad_bot = 0.25;
-double rad_wheel = 0.05, rad_bot = 0.1725; // new bot wheel rad after coupler change
+double rad_wheel = 0.05, rad_bot = 0.28; // new bot wheel rad after coupler change
 double speed_ang;
 double speed_lin_x;
 double speed_lin_y;
